@@ -25,7 +25,7 @@ input{
 }
 
 .column:first-child{
-    height: 20vh;
+    height: 40vh;
     padding-top: 15px;
     padding-right: 30px;
     display: flex;
@@ -37,11 +37,15 @@ input{
 }
 
 .column:nth-child(2){
-    height: 40vh;
+    height: 20vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-bottom: 20px;
+}
+
+.greeting{
+    font-size: 45px;
 }
 
 
