@@ -1,0 +1,85 @@
+.hidden{
+    display: none;
+}
+
+body{
+    background-size: 100vw 102vh;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+}
+
+form>button{
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+}
+
+input{
+    width: 300px;
+    height: 30px;
+    border-radius: 10px;
+    padding-left: 10px;
+    font-size: 15px;
+}
+
+.column:first-child{
+    height: 40vh;
+    padding-top: 15px;
+    padding-right: 30px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.weather{
+    font-size: 20px;
+}
+
+.column:nth-child(2){
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.greeting, .clock{
+    font-size: 50px;
+}
+
+.column:nth-child(3){
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.column:last-child{
+    height: 10vh;
+}
+
+.greeting{
+    color: white;
+}
+
+.todo-list{
+    color: white;
+    opacity: 1;
+}
+
+.quote{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.clock{
+    color: white;
+}
+
+.weather{
+    color: white;
+}
