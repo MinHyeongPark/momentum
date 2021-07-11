@@ -44,9 +44,6 @@ input{
     margin-bottom: 20px;
 }
 
-.greeting, .clock{
-    font-size: 50px;
-}
 
 .column:nth-child(3){
     height: 30vh;
